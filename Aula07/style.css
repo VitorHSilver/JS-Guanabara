@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.area{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+input{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.button{
+    background-color: rgb(5, 247, 114);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+p{
+ font-size: 1.5rem;
+ 
+}
