@@ -1,0 +1,63 @@
+:root{
+ --cordefundo: #5252db;
+ --cordetexto: #000100;
+ --cordetitulo: #fff;
+
+ --fundodia:#fffb00;
+ --fundotarde:#FB6B00;
+ --fundonoite:#132743;
+ --fundomadrugada: #343A48;
+}
+* {
+ margin: 0px;
+ padding: 0px;
+ font-family: "Roboto";
+}
+
+body{
+    font-size: 1.3rem;
+
+}
+header{
+    text-align: center;
+    color: var(--cordetitulo);
+    margin: 1.7rem;
+}
+.area{
+    background-color: var(--cordetitulo);
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    padding: 10px;
+    text-align: center;
+    
+}
+.rodape{
+    text-align: center;
+    color: #000100;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.imagem{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.madrugada{
+    background-color:var(--fundomadrugada);
+}
+.noite{
+    background-color:var(--fundonoite);
+}
+.tarde{
+    background-color:var(--fundotarde);
+}
+.dia{
+    background-color:var(--fundodia);
+}
