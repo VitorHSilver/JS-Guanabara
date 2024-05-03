@@ -1,0 +1,54 @@
+:root{
+ --cordefundo: #5353e2;
+ --cordetexto: #000100;
+ --cordetitulo: #fff
+}
+* {
+ margin: 0px;
+ padding: 0px;
+ font-family: "Roboto";
+}
+
+body{
+    font-size: 1.3rem;
+    background-color: var(--cordefundo);
+}
+header{
+    text-align: center;
+    color: var(--cordetitulo);
+    margin: 1.7rem;
+}
+.area{
+    background-color: var(--cordetitulo);
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    padding: 20px
+}
+.area-input{
+    p{
+        padding: 3px;
+        width: 10;
+        font-size: 1.8rem;
+
+    }
+    & #btn{
+        font-size: 1.5rem;
+        margin: 10px 0 ;
+        padding: 5px;
+    }
+}
+
+.rodape{
+    text-align: center;
+    color: #000100;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.conteudo{
+display: flex ;
+flex-direction: column;
+gap: 15px;
+}
+
