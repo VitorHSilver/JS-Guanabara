@@ -1,0 +1,74 @@
+:root{
+ --cordefundo: #5252db;
+ --cordetexto: #000100;
+ --cordetitulo: #fff
+}
+* {
+ margin: 0px;
+ padding: 0px;
+ font-family: "Roboto";
+}
+
+body{
+    font-size: 1.3rem;
+    background-color: var(--cordefundo);
+
+}
+header{
+    text-align: center;
+    color: var(--cordetitulo);
+    margin: 1.7rem;
+}
+.area{
+    background-color: var(--cordetitulo);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+}
+.rodape{
+    text-align: center;
+    color: #000100;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.container{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    padding: 0.5rem;
+}
+#btnFinalizar {
+    width: fit-content;
+}
+input{
+    padding: 0.5rem;
+}.option{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.8rem;
+    & #numInsert{
+    font-size: 1.3rem;
+    padding: 4px;
+    }
+
+}.res{
+    font-size:1rem;
+}span{
+    font-size: 1.2rem;
+    color: var(--cordefundo);
+}.add__number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+    & :is(input) {
+        flex-grow: 1;
+    }
+}
+
