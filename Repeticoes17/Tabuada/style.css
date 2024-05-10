@@ -1,0 +1,80 @@
+:root{
+ --cordefundo: #ffffff;
+ --cordetexto: #7cbbf0;
+ --cordetitulo: #00000
+}
+* {
+ margin: 0px;
+ padding: 0px;
+ font-family: "Roboto";
+}
+
+h1{
+    color: var(--cordetexto);
+}
+body{
+    font-size: 1.3rem;
+    background-color: var(--cordefundo);
+    
+}
+header{
+    
+    text-align: center;
+    color: var(--cordetitulo);
+    margin: 1.7rem;
+}
+
+.area{
+    background-color:var(--cordetexto);
+    width: 16%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    padding: 10px;
+    text-align: center;    
+    
+}
+.rodape{
+    text-align: center;
+    color: var(--cordetexto);
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.tab{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+#titulo{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    text-transform: uppercase;    
+}
+input{
+    height: 20px;
+}
+#tabuada{
+    text-align: center;
+    padding: 10px;
+}
+.buttons{
+    padding: 10px;
+}
+#btn{
+    padding: 8px;
+    font-size: 1.3rem;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 4px;
+    
+}& #btnLimpar{
+    font-size: 0.9rem;
+    border: solid 1px rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 4px;
+}
+#btn :hover{
+    color: #7cbbf0;
+    background-color: pink;
+}
