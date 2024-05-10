@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
      <head>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>Sistema Contador</title>
-          <link rel="stylesheet" href="style.css" />
+          <title>Contador</title>
+          <link rel="stylesheet" href="./style.css" />
      </head>
-     <header>
-          <h1>Vamos contar</h1>
-     </header>
      <body>
+          <header>
+               <h1>Contador</h1>
+          </header>
+
           <section class="area">
-               <div class="area-input">
+               <div class="conteudo">
                     <p>
-                         <label for="inicio">Início:</label>
-                         <input type="number" id="ini" />
+                         <label for="ini">Início:</label>
+                         <input type="number" name="ini" id="ini" />
                     </p>
+
                     <p>
                          <label for="fim">Fim:</label>
-                         <input type="number" id="fim" />
+                         <input type="number" name="fim" id="fim" />
                     </p>
+
                     <p>
-                         <label for="passo">Passo:</label>
-                         <input type="number" id="pas" />
+                         <label for="pas">Passo:</label>
+                         <input type="number" name="pas" id="pas" value="1" />
                     </p>
-                    <button id="btn" type="button" value="Contar">Contar</button>
-                    <div class="res"></div>
                </div>
+               <div>
+                    <button id="btn" value="Contar">Contar</button>
+               </div>
+               <div class="res">Preparando a contagem</div>
           </section>
-          <footer class="rodape">@VitorHSilver</footer>
-          <script src="/Repeticoes16/Exercicios/script.js"></script>
+          <footer class="rodape">
+               <p>@VitorHSilver</p>
+          </footer>
+          <script src="./script.js"></script>
      </body>
 </html>
