@@ -1,0 +1,19 @@
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.area input {
+    margin-bottom: 10px; /* Espaçamento entre o input e o botão */
+}
+#btn{
+    margin-left: 85%;
+}
+.res{
+    text-align: center;
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1.6rem;
+}
